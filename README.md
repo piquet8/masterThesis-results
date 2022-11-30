@@ -1,30 +1,20 @@
-# masterThesis-results
-This repository contains most of the material used in the course of my thesis project.
+# masterThesisProject-Piquet
 
-Within the three folders you will find the log files obtained from the different experiment modes (2 in the simulated environment and 1 with the real robot).
+This repository contains most of the material and tools used and implemented during my thesis project.
 
-The implemented tool traceGenerator and its documentation can be found at its dedicated repository: [traceGenerator](https://github.com/piquet8/TraceGenerator_Script.git) 
+The tool implemented for converting log files into traces and later into samples is the [traceGenerator](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/traceGenerator.py) script for which there is a dedicated repository with related documentation [here](https://github.com/piquet8/TraceGenerator_Script).
 
-If you try the trace generator tool, before selecting the file(s) to convert in the first two functions you will be asked to enter the coordinates of the extremes of the map used. Below you will find the different coordinates for the experiments done:
+A version of the same tool that allows, however, to obtain uncompressed traces to allow comparison between files was implemented and provided [traceGeneratorNotComp](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/traceGeneratorNotComp.py)
 
-For the RAL2022-experiments simulation the parameters are:
-- a0 = -15.5
-- a1 = 6.5
-- b0 = -10.8
-- b1 = 16.8
+The three folders [R1-experiments](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/R1-experiments), [RAL-simulation](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/RAL-simulation) and [tour-guide-robot_simulation](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/tour-guide-robot_simulation) contain within them three other folders containing: 
+- the log files obtained from the experiments with the different approaches 
+- the folders of traces obtained from the log files through the use of the implemented tool
+- the samples composed of the traces obtained through the use of the implemented tool
 
-For the tour-guide-robot simulation, the parameters are:
-- a0 = -3.4
-- a1 = 64
-- b0 = -19.2
-- b1 = 16.9
+For the results obtained in the section of the thesis on comparing compressed and uncompressed files, the files used are: 
+- [test.txt](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/test.txt) to compare the difference between a compressed and an uncompressed track
+- [RAL1](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/RAL-simulation/samples/RAL1.json) and [RAL_sample_notComp](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/RAL-simulation/samples/RAL_sample_notComp.json) for comparison between a sample obtained from compressed traces and one obtained from uncompressed traces
 
-For the R1 experiments in arena, the parameters are:
--	a0 = -5.6
--	a1 = 6.6
--	b0 = -5
--	b1 = 8.6
+To obtain the solutions seen in the thesis using the IIT solver, you can use the samples contained in the sample folders (or you can generate the samples from the log files using the traceGenerator tool) and use the tool that you find, with its documentation, here: [learn_LTL](https://github.com/EnricoGhiorzi/learn_ltl.git.
 
-The last file contains the same version of the tool but produces uncompressed traces.
 
-If you also want to try to get the solutions seen in the thesis using the iit solver find the tool and its documentation here: [learn_LTL](https://github.com/EnricoGhiorzi/learn_ltl.git)
