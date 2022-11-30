@@ -2,7 +2,7 @@
 
 This repository contains the material and tools used and implemented during my thesis project.
 
-The tool implemented for converting log files into traces and later into samples is the [traceGenerator](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/traceGenerator.py) script for which there is a dedicated repository with related documentation [here](https://github.com/piquet8/TraceGenerator_Script).
+The tool implemented for converting log files into traces and then create samples is the [traceGenerator](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/traceGenerator.py) script for which there is a dedicated repository with related documentation [here](https://github.com/piquet8/TraceGenerator_Script).
 
 A version of the same tool that allows, however, to obtain uncompressed traces to allow comparison between files was implemented and provided [traceGeneratorNotComp](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/traceGeneratorNotComp.py).
 
