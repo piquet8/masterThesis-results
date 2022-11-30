@@ -6,7 +6,7 @@ The tool implemented for converting log files into traces and then create sample
 
 A version of the same tool that allows, however, to obtain uncompressed traces to allow comparison between files was implemented and provided [traceGeneratorNotComp](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/traceGeneratorNotComp.py).
 
-The three folders [R1-experiments](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/R1-experiments), [RAL-simulation](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/RAL-simulation) and [tour-guide-robot_simulation](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/tour-guide-robot_simulation) contain within them three other folders containing: 
+The three folders [RAL-simulation](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/RAL-simulation), [tour-guide-robot_simulation](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/tour-guide-robot_simulation) and [R1-experiments](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/R1-experiments) contain within them three other folders containing: 
 - the log files obtained from the experiments with the different approache (here you can see videos of the different experiments: [RAL-simulation-experiments](https://www.youtube.com/watch?v=dSbK80kEZ0k), [tour-guide-robot_simulation-experiments](https://www.youtube.com/watch?v=8L_4tDIS1Gs) and [R1-experiments](https://www.youtube.com/watch?v=qedEZL8t7cs))
 - the folders of traces obtained from the log files through the use of the implemented tool
 - the samples composed of the traces obtained through the use of the implemented tool
