@@ -8,8 +8,8 @@ A version of the same tool that allows, however, to obtain uncompressed traces t
 
 The three folders [RAL-simulation](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/RAL-simulation), [tour-guide-robot_simulation](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/tour-guide-robot_simulation) and [R1-experiments](https://github.com/piquet8/masterThesisProject-Piquet/tree/main/R1-experiments) contain within them three other folders containing: 
 - the log files obtained from the experiments with the different approaches (here you can see videos of the different experiments: [RAL-simulation-experiments](https://www.youtube.com/watch?v=dSbK80kEZ0k), [tour-guide-robot_simulation-experiments](https://www.youtube.com/watch?v=8L_4tDIS1Gs) and [R1-experiments](https://www.youtube.com/watch?v=qedEZL8t7cs))
-- the folders of traces obtained from the log files through the use of the implemented tool
-- the samples composed of the traces obtained through the use of the implemented tool
+- the folders of traces (obtained from the log files through the use of the implemented tool)
+- the samples composed of the traces (obtained through the use of the implemented tool)
 
 For the results obtained in the section of the thesis on comparing compressed and uncompressed files, the files used are: 
 - [test.txt](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/test.txt) to compare the difference between a compressed and an uncompressed track
