@@ -12,7 +12,7 @@ The three folders [RAL-simulation](https://github.com/piquet8/masterThesisProjec
 - the samples composed of the traces (obtained through the use of the implemented tool)
 
 For the results obtained in the section of the thesis on comparing compressed and uncompressed files, the files used are: 
-- [test.txt](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/test.txt) to compare the difference between a compressed and an uncompressed track
+- [test.txt](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/test.txt) to compare the difference between a compressed and an uncompressed trace
 - [RAL1](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/RAL-simulation/samples/RAL1.json) and [RAL_sample_notComp](https://github.com/piquet8/masterThesisProject-Piquet/blob/main/RAL-simulation/samples/RAL_sample_notComp.json) for comparison between a sample obtained from compressed traces and one obtained from uncompressed traces
 
 To obtain the solutions seen in the thesis using the IIT solver, you can use the samples contained in the sample folders (or you can generate the samples from the log files using the traceGenerator tool) and use the tool that you find, with its documentation, here: [learn_LTL](https://github.com/EnricoGhiorzi/learn_ltl.git).
